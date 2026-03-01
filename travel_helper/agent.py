@@ -61,7 +61,7 @@ response_format = """
 
 root_agent = Agent(
     name="travel_helper_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash-lite",
     description="Travel helper agent to provide essential pre-departure information for a traveler",
     instruction=instruction_prompt + response_format,
     # If running locally, you can also have file system access to save the information

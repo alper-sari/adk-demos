@@ -15,7 +15,7 @@ instruction_prompt = f"""
 
 root_agent = Agent(
     name='filesystem_assistant_agent',
-    model='gemini-2.0-flash',
+    model='gemini-2.5-flash-lite',
     description="An agent to help the user to manager their files. You can list files, read files, etc.",
     instruction=instruction_prompt,
     tools=[

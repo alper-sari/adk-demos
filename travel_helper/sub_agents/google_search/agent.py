@@ -8,7 +8,7 @@ instruction_prompt = """
 
 root_agent = Agent(
     name="google_search_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash-lite",
     description="Agent to search and provide a summary on a given travel topic",
     instruction=instruction_prompt,
     tools=[google_search]

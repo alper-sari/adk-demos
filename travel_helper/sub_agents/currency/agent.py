@@ -41,7 +41,7 @@ instruction_prompt = """
 
 root_agent = Agent(
     name="currency_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash-lite",
     description="Agent to convert from one currency to another.",
     instruction=instruction_prompt,
     tools=[convert_currency]

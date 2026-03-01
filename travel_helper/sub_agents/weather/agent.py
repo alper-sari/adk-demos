@@ -59,7 +59,7 @@ instruction_prompt = """
 
 root_agent = Agent(
     name="weather_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash-lite",
     description="Agent to answer questions about weather in a city.",
     instruction=instruction_prompt,
     tools=[location_to_lat_long, lat_long_to_weather]
